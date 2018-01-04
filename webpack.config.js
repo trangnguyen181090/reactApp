@@ -10,6 +10,7 @@ module.exports = {
         publicPath: '/src/'
     },
     devServer: {
+        contentBase: 'src',
         inline: true,
         port: 9090
     },
